@@ -46,20 +46,8 @@
         color: #19325f;
         user-select: none;
     }
-    button {
-        background-color: #19325f;
-        opacity: 0.85;
+    .button {
         width: 100%;
-        height: 45px;
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        cursor: pointer;
     }
-    a {
-        color: #fff;
-        font-size: 20px;
-        text-decoration: none;
-    }
-    
-    
+
+
