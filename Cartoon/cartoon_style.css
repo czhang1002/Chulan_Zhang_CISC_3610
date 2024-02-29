@@ -1,12 +1,32 @@
-#board_container {
-    display: flex;
-    justify-content: center;
-    
-    padding-top: 40px;
-    
-    font-size: 20px;
-}
-#canvas {
-    margin:30px;
-    border: 3px solid black;
-}
+    #board_container {
+        display: flex;
+        justify-content: center;
+        
+        padding-top: 40px;
+        
+        font-size: 20px;
+    }
+    #canvas {
+        margin:30px;
+        border: 3px solid black;
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #19325f;
+        opacity: 0.85;
+        width: 200px;
+        height: 45px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    button {
+        background-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        outline: none; 
+    }
