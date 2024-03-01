@@ -49,5 +49,21 @@
     .button {
         width: 100%;
     }
+    @media(max-width: 900px) {
+        #portfolio{
+            width: 600px;
+        }
+        #section {
+            width: 250px;
+        }
+    }
+    @media(max-width: 600px) {
+        #portfolio{
+            width: 400px;
+        }
+        #section {
+            width: 180px;
+        }
+    }
 
 
