@@ -32,5 +32,6 @@
         font-size: 20px;
         border: none;
         outline: none; 
+        cursor: pointer;
     }
 
