@@ -28,8 +28,7 @@ const barchart = () => {
     const board = document.getElementById("board");
     let barchart = board.getContext("2d");
     let barheight = 0, nextLine = 1;
-    let fruit_data = JSON.parse(fruit);
-    // let fruit_data = JSON.stringify(fruit);
+    let fruit_data = JSON.stringify(fruit);
 
     barchart.beginPath();
     for (let i = 0; i < fruit_data.length; i++) {
