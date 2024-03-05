@@ -1,13 +1,22 @@
-    #board_container {
+    body {
         display: flex;
         justify-content: center;
+    }
+    #board_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         
-        padding-top: 40px;
-        
-        font-size: 20px;
+        width: 800px;
+    }
+    #title {
+        text-align: center;
+
+        font-size: 30px;
+        font-weight: bold;
     }
     #canvas {
-        margin:30px;
+        margin: 30px;
         border: 3px solid black;
     }
     .button {
@@ -34,4 +43,3 @@
         outline: none; 
         cursor: pointer;
     }
-
