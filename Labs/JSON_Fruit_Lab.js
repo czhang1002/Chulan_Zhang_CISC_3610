@@ -24,8 +24,6 @@ var fruit = [{
     color: "#421C52"
 }];
 
-// var fruit = '[{"name": "Apple", "quantity": 20, "color": "#DD1533"}, {"name": "Orange", "quantity": 10, "color": "#FF5F00"}, {"name": "Banana","quantity": 15, "color": "#FFE135"}, {"name": "Kiwi", "quantity": 5, "color": "#7A960F"}, {"name": "Blueberry", "quantity": 5, "color": "#312581"}, {"name": "Grapes", "quantity": 10, "color": "#421C52"}]';
-
 const barchart = () => {
     const board = document.getElementById("board");
     let barchart = board.getContext("2d");
