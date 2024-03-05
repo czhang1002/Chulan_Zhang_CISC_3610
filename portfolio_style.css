@@ -48,6 +48,8 @@
         user-select: none;
     }
     .button {
+        margin-bottom: 5px;
+
         width: 100%;
     }
     button {
