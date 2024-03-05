@@ -227,7 +227,7 @@ const cartoon_drawing = function() {
         cartoon.lineWidth = 3;
         for (let i = 0; i < 8; i++) {
             cartoon.beginPath();
-            // when the bird out of the canva, reset from the left
+            // when the bird out of the canvas, reset from the left
             if (birds[i].x > 900) {
                 birds[i].x = -20; 
                 birds[i].x1 = 0;
@@ -250,8 +250,10 @@ const cartoon_drawing = function() {
     update();
     function update() {
         setInterval(() => {
+            // clear canvas
             cartoon.fillStyle = "white";
             cartoon.fillRect(0, 0, 800, 500);
+            // update canvas
             canvas_drawing();
             animation(); 
         }, 50);
