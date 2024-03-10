@@ -23,5 +23,6 @@ const barchart = () => {
         barheight += 90;
     }
 }
+
 document.addEventListener("DOMContentLoaded", barchart);
 
