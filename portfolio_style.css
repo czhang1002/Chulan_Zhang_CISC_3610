@@ -1,12 +1,14 @@
+    * {
+        font-family: monospace;
+    }
     body {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        background-image: url("image/1.jpg");
+        background-image: url("image/background.png");
         background-repeat: no-repeat;
-        background-position: fixed;
-        font-family: monospace;
+        background-size: cover;
     }
     #portfolio {
         position: absolute;
