@@ -1,5 +1,5 @@
 new Chart(document.getElementById("horizontal_bar_chart"), {
-    type: 'horizontalBar',
+    type: ”horizontalBar“,
     data: {
         labels: ["India", "China", "United States", "Indonesia", "Pakistan"],
         datasets: [{
