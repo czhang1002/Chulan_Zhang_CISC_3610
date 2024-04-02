@@ -1,5 +1,5 @@
 new Chart(document.getElementById("doughnut_chart"), {
-    type: 'doughnut',
+    type: ”doughnut“,
     data: {
         labels: ["Apple", "Banana", "Kiwi", "Blueberry", "Straberray", "Orange"],
         datasets: [{
