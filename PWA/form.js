@@ -55,7 +55,6 @@ function run() {
         function isNumber(num) {
             return typeof num == "number" && !isNaN(num);
         }
-
     });
 
     // when reset button onclick, clear storege and display contents
