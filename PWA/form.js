@@ -81,7 +81,6 @@ function run() {
             else 
                 document.getElementById("Celsius").checked = true;
             numbers.temperature.value = result[result.length - 1].Temperature;
-            // numbers.B.value = result[result.length - 1].Example_b;
         }
     }
 }
