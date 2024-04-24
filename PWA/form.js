@@ -10,7 +10,6 @@ function run() {
     const result_container = document.getElementById("result_container");
     let result = JSON.parse(localStorage.getItem("list")) || [];
     
-    
     document.getElementById("Fahrenheit").addEventListener("click", () => {
         document.getElementById("unit").textContent = "°C";
     });
