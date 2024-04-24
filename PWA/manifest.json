@@ -1,0 +1,21 @@
+{
+    "name":"Temperature Conversion",
+    "short_name":"Temp Conv",
+    "start_url":"Form_Project.html",
+    "display":"standalone",
+    "background_color":"#5900b3",
+    "theme_color":"black",
+    "scope": ".",
+    "icons":[
+        {
+            "src":"temperature_icon.jepg",					 
+            "sizes":"192x192",
+            "type":"image/jepg"
+        },
+        {
+            "src":"temperature_icon.jepg",
+            "sizes":"512x512",
+            "type":"image/jepg"
+        }
+    ]
+}
