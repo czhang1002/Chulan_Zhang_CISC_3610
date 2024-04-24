@@ -35,7 +35,6 @@ function run() {
                 Unit: numbers.radio_select.value,
                 FromUnit: fromUnit,
                 Temperature: numbers.temperature.value,
-                // Example_b: numbers.B.value,
                 Result: equation()
             });
             render();
