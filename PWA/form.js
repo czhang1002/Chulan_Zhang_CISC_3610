@@ -30,18 +30,23 @@ function run() {
             fromUnit = "°F";
         }
         
-        if(numbers.temperature.value != "" && isNumber(equation())) {
-            result.push({
-                Unit: numbers.radio_select.value,
-                FromUnit: fromUnit,
-                Temperature: numbers.temperature.value,
-                Result: equation()
-            });
-            render();
-            localStorage.setItem("list", JSON.stringify(result));
-        } else {
-            alert("Please enter a valid number");
+        // document.forms.numbers.elements.temperature.value
+        if (document.getElementById("Fahrenheit").checked || document.getElementById("Celsius").checked) {
+            if(numbers.temperature.value != "" && isNumber(equation())) {
+                result.push({
+                    Unit: numbers.radio_select.value,
+                    FromUnit: fromUnit,
+                    Temperature: numbers.temperature.value,
+                    Result: equation()
+                });
+                render();
+                localStorage.setItem("list", JSON.stringify(result));
+            } else {
+                alert("Please enter a valid number");
+            }
         }
+        else 
+            alert("Please choose a conversion unit");
 
         function equation() {
             const num = Number(numbers.temperature.value);
